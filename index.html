@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -9,7 +8,7 @@
     <style>
       * {
         font-family: tahoma, Helvetica, sans-serif; /* tipo de letra de todo el ticket; */
-        font-size: 3.5mm !important;
+        font-size: 2mm !important;
         line-height: 1 !important;
       }
 
@@ -303,15 +302,17 @@ img#impresoraButton {
     
      <div id="thermal-pos">
         
+        <div id="thermal-pos">
+        
         <div class="label">
-             <img src="https://drive.google.com/uc?export=download&id=1j4JNSwf61jkbL5cYOlgFfEg5VF6hBhJy" class="ImganelLogo" width= "40%" id "foto"
+             <img src=""https://drive.google.com/uc?export=download&id=1j4JNSwf61jkbL5cYOlgFfEg5VF6hBhJy" class="ImganelLogo" width= "40%" id "foto"
             <br/>
             <p class="info-tienda">
-                Av. 1XXXXXXXXXX,
+                Salaverry 193 , Miraflores
                 <br>
-                Email: XXXXXXXXX
+                Telefono: 947947119
                 <br>
-                Horario XXXXXXX
+                Horario de lunes a sábado de 8:00 am a 5:00 pm pr
                 <br>
                 <br>
             </p>
@@ -334,9 +335,15 @@ img#impresoraButton {
         </div>
 
         <!-- <div class="line">***********************************************</div> -->
-            
         
-        
+        <div class="label">
+            <p class="fecha_entrega">
+                <b>
+                    FECHA DE ENTREGA: <br>
+                    <span id="hora"></span>
+                </b>
+            </p>
+        </div>
    
         <table class="table">
             <tbody id="tablaBody">
@@ -397,7 +404,7 @@ img#impresoraButton {
             
             
             // Mensaje a enviar junto con el enlace
-            var message = 'Hola!!somos de la lavandería Easy Laundry , somos una lavandería que cuida el medio ambiente ♻️♻️♻️♻️♻️, por ello adjuntamos su ticket de atención  virtual. Click en el link para ver el ticket 👇🏻👇🏻👇🏻 ' + currentURL;
+            var message = 'Hola!! somos de la lavandería EVERGREEN , somos una lavandería que cuida el medio ambiente ♻️♻️♻️♻️♻️, por ello adjuntamos su ticket de atención  virtual. Click en el link para ver el ticket 👇🏻👇🏻👇🏻 ' + currentURL;
             
                // Código de país fijo
             //var countryCode = '+51';
@@ -470,16 +477,10 @@ document.getElementById('impresoraButton').addEventListener('click', printTicket
         <br/>
         <div class="policy">
             <p class="policy-title">
-                <b></b>
+                <b>Gracias por confiar en nosotros</b>
             </p>
         
-            <p class="m-0">
-               CONDICIONES XXXXXXXXXX
-    
-        <div class="policy">
-            <p class="policy-title">
-                <b>Gracias por su Preferencial!!</b>
-            </p>
+
     </div>
     <script>
         var nroBoletaElement = document.getElementById("nro_boleta_id").textContent = nro_boleta;
@@ -509,3 +510,6 @@ if (currentURL.indexOf('sharelink=1') !== -1) {
     impresoraButton.style.display = 'none';
 }
 </script>
+
+</body>
+</html>
